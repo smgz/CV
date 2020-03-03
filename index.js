@@ -14,7 +14,7 @@ function generateNum() {
 };
 
 function post(number) {
-  $("#level-title").text("Folge: " + number + " wurde ausgewählt.");
+  $("#level-title").text("Zufällige Folge: " + number);
   $("#btn").text("Neue zufällige Folge");
 };
 
@@ -22,12 +22,15 @@ function nextStep() {
   if (current < 10) {
     post(current);
     $("#picture").attr("src", "images/00" + current + ".jpg");
+    $("#picture").attr("alt", "Folge" + current);
   } else if (current < 100) {
     post(current);
     $("#picture").attr("src", "images/0" + current + ".jpg");
+    $("#picture").attr("alt", "Folge" + current);
   } else {
     post(current);
     $("#picture").attr("src", "images/" + current + ".jpg");
+    $("#picture").attr("alt", "Folge" + current);
   }
 };
 
