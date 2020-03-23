@@ -57,7 +57,7 @@ body {
 
 /* Footer */
 #footer {
-  padding: 3rem 15% 1.5rem 15%;
+  padding: 2rem 15% 1.5rem 15%;
   text-align: center;
   color: #c8c8c8;
 }
@@ -76,6 +76,18 @@ body {
   margin-bottom: 2rem;
   margin-right: 1rem;
 }
+#content {
+  text-align: center;
+}
+.cover {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #0e4469, #10517d);
+  box-shadow:  20px 20px 60px #0d4163, 
+               -20px -20px 60px #115787;
+   width: 400px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
 /* Media */
 @media (max-width: 1028px) {
   #features {
@@ -87,18 +99,4 @@ body {
   .titel-img {
     width: 100%;
   }
-}
-
-#content {
-  text-align: center;
-}
-.title {
-  margin: 1.5rem;
-}
-
-.cover {
-  width: 400px;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
-
 }
