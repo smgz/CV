@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <title>Die ??? - ZufallsGenerator</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3f7c3a2967.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>??? Zufalls Folge</title>
+  </head>
 
 <body>
-  <div class="container-fluid">
-    <h1 id="level-title">Clicken für die Zufällige Folge</h1>
+  <!-- Content -->
+  <div class="container-fluid" id="content">
+    <h1 class="title dispaly-4">Zufällige ???-Folge</h1>
     <picture>
-      <img class="cover border border-light rounded-lg img-fluid " id="picture" src="./images/001.jpg" alt="Folge1">
+      <img class="cover border-light border rounded-lg img-fluid" id="picture" src="./images/001.jpg" alt="Folge1">
     </picture>
     <br />
-    <button type="button" id="btn" class="btn btn-secondary btn-lg">Zufälige Folge</button>
-    <p class="footer"> Made with ❤️ from Mannheim(Germany) | ©2020</p>
+    <button type="button" id="btn" class="btn btn-dark btn-lg">Zufälige Folge</button>
+
+    <!-- Footer -->
+  <footer id="footer">
+    <div class="container-fluid">
+      <a href="http://www.facebook.com"><i class="social-icon fab fa-facebook-f"></i></a>
+      <a href="http://www.twitter.com"><i class="social-icon fab fa-twitter"></i></a>
+      <a href="http://www.instagram.com"><i class="social-icon fab fa-instagram"></i></a>
+      <a href="http://github.com"><i class="social-icon fab fa-github"></i></a>
+      <br>
+      <div class="d-lg-none">Made with ❤️ in Heidelberg<br> © Copyright 2020</div>
+      <div class="d-none d-lg-block">Made with ❤️ in Heidelberg © Copyright 2020</div>
+    </div>
+  </footer>
   </div>
 
   <!-- Jquery & JavaScript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="index.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <script src="../index.js"></script>
 </body>
 
 </html>
