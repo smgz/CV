@@ -5,7 +5,7 @@ function start() {
 };
 
 function generateNum() {
-  current = Math.ceil(Math.random() * 203);
+  current = Math.ceil(Math.random() * 204);
   if (!unwantedNum.includes(current) === false) {
     generateNum();
   } else {
@@ -14,7 +14,7 @@ function generateNum() {
 };
 
 function post(number) {
-  $("#level-title").text("Zufällige Folge: " + number);
+  $(".title").text("Zufällige Folge: " + number);
   $("#btn").text("Neue zufällige Folge");
 };
 
@@ -35,6 +35,6 @@ function nextStep() {
 };
 
 
-$("#btn").click(function() {
+$("#btn").click(function () {
   start();
 });
