@@ -14,7 +14,7 @@ function generateNum() {
 };
 
 function post(number) {
-  $(".title").text("Zufällige Folge: " + number);
+  $(".title").html("Zufällige Folge:<br>" + number);
   $("#btn").text("Neue zufällige Folge");
 };
 
